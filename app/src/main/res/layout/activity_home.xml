@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="77dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="221dp"
+        android:layout_height="37dp"
+        android:text="&quot;Just Detox Your Pain&quot;"
+        android:textColor="#06790B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.655"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <Button
+        android:id="@+id/routine"
+        android:layout_width="344dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#2B83B2"
+        android:gravity="center|left"
+        android:text="Your Today's Routine"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="342dp"
+        android:layout_height="148dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/routine"
+        app:layout_constraintVertical_bias="0.034"
+        app:srcCompat="@drawable/sa" />
+
+    <Button
+        android:id="@+id/growth"
+        android:layout_width="342dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#28A62D"
+        android:gravity="center|left"
+        android:text="My Growth "
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <Button
+        android:id="@+id/quiz"
+        android:layout_width="344dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#720606"
+        android:gravity="center|left"
+        android:text="Asses Yourself"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/growth"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="344dp"
+        android:layout_height="106dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quiz"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/ee2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="348dp"
+        android:layout_height="123dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        app:layout_constraintVertical_bias="0.386"
+        app:srcCompat="@drawable/exercise" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

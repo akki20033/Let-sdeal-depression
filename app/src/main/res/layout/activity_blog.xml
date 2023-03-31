@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlogActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/title_blog"
+            android:hint="Title"
+            android:gravity="start"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/post_image_blog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#AB5BD0DF"
+            android:minHeight="200dp"
+            android:scaleType="fitXY" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description of the post"
+            android:inputType="textCapSentences|textMultiLine"
+            android:gravity="start"
+            android:minHeight="120dp"
+            android:id="@+id/description_blog"/>
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#E286E28A"
+            android:text="Upload" />
+    </LinearLayout>
+
+</RelativeLayout>

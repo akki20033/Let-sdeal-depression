@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "722642250249",
+    "project_id": "detox-d6887",
+    "storage_bucket": "detox-d6887.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722642250249:android:92ebb6f6fed012add426d8",
+        "android_client_info": {
+          "package_name": "com.example.detox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722642250249-l6fths7vs92g4umnvp897gm8kibcevna.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6k-INGBTQxls_25oGut3T8USOXUW5PAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722642250249-l6fths7vs92g4umnvp897gm8kibcevna.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
